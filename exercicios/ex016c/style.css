@@ -1,0 +1,43 @@
+@charset "UTF-8"
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(to right, #C4EEF2, #A7F2F2);
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #198f8f;
+    width: 600px;
+    padding: 10px;
+    margin: auto
+}
+
+h1{ /*Adicionado um 'shorthands' uma mãozinha para facilitar o uso dos codigos, sem precisar fazer dessa forma
+    ex.:
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+    font-size: 2em
+    font-style: italic
+    font-weight: bold */
+    font: bold italic 2em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #733B36;
+    text-align: center;
+    text-shadow: 1px 1px 2px #683631e8;
+    
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #BF988A;
+    font-size: 1,5em;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
